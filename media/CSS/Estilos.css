@@ -1,0 +1,385 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body{
+	background-color: rgba(32, 32, 32, 1);
+	font-size: 16px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.articulo-content{
+	width: 100%;
+}
+
+.articulo-figure{
+	margin: 0;
+	width: 100%;
+}
+
+.articulo-content, .articulos-controles{
+	display: block;
+}
+
+.ariculo-img, .ariculo-descripcion{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ariculo-img{
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+	height: 190px;
+	margin-left: 0.3em;
+	width: 35%;
+}
+
+.ariculo-img{
+	cursor: pointer;
+}
+
+.ariculo-descripcion{
+	padding: 0.8em;
+	overflow: hidden;
+	width: 55%;
+}
+
+.articulo-titulo{
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.articulo-Text{
+	font-size: 0.8em;
+	font-family: 'Droid Serif', serif;
+	margin-top: 0.7em;
+	margin-bottom: 0.2em;
+	text-align: justify;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btnEnviar{
+	color: #fff;
+	background-color: rgba(39, 40, 34, 0.8);
+	border: none;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	margin: 1em auto 0 auto;
+	padding: 0.8em;
+}
+
+.btn_exit{
+	/*float: right;*/
+	position: relative;
+}
+.btn_exit:hover{
+	cursor: pointer;
+}
+
+.btnEnviar:hover{
+	background-color: rgba(39, 40, 34, 0.6);
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Content_btn_exit{
+	float: right;
+}
+
+.Content-Ventana-Modal{
+	background-color: rgba(39, 40, 34, 0.5);
+	display: none;
+	bottom: 0;
+	height: 1100px;
+	top: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.contenedor, .nav-contenedor{
+	display: inline-block;
+}
+
+.contenedor{
+	background-color: rgba(255, 255, 255, 1);
+	float: right;
+	margin-top: 5px;
+	height: 1075px;
+	width: 77%;
+}
+
+.Content-Articulo{
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+	height: 190px;
+	padding: 0.3em 0 0.3em 0;
+	margin-bottom: 0.3em;
+	width: 100%;
+}
+
+.contenedor-body{
+	background-color: rgba(0, 102, 173, 1);
+	box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+	width: 80%;
+}
+.Contenedor-Contact{
+	background-color: rgba(158, 158, 158, 0.3);
+	display: none;
+	margin: 2em auto 0 auto;
+	padding: 2em 0;
+	width: 98%;
+}
+
+.Contenedorleft{
+	background-color: rgba(158, 158, 158, 0.3);
+	display: block;
+	margin: 2em auto 0 auto;
+	padding: 0.7em 0.4em;
+	width: 97%;
+}
+
+.Contenedor-Publicaciones{
+	background-color: rgba(158, 158, 158, 0.3);
+	display: none;
+	margin: 2em auto 0 auto;
+	padding: 0.7em 0.5em;
+	width: 97%;
+}
+
+.Content_Publicaciones_IMG{
+	margin-top: 40px;
+	width: 100%;
+}
+
+.Contenedor-social{
+	margin: 0.8em auto 0 auto;
+	height: 50px;
+	width: 470px;
+}
+
+.Contacto-Encabezado{
+	color: rgba(39, 40, 34, 0.8);
+	text-align: center;
+	font-family: cursive;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+	padding: 0.4em;
+}
+
+.div-social{
+	color: #000;
+	text-align: right;
+	margin-top: -19px;
+	width: 100%;
+}
+
+.Enc-h2{
+	font-family: 'Oswald', sans-serif;
+}
+
+.form{
+	background-color: rgba(0, 102, 173, 0.5);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+	display: block;
+	margin: 0 auto;
+	padding: 1em;
+	width: 70%;
+}
+
+.footer{
+   	background-color: rgba(39, 40, 34, 1);
+   	box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+   	bottom: 0;
+	display: block;
+	margin: 0 auto;
+	padding: 0.2em 0;
+   	width:80%;
+
+}
+
+.footer p{
+	color: #fff;
+	font-family: 'Droid Serif', serif;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.item-social{
+	display: inline;
+}
+
+.input{
+	border: none;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	margin: 0.5em auto 0 auto;
+	max-width: 80%;
+	padding: 1em;
+	width: 80%;
+}
+
+.input:focus{
+	color: #000;
+	background-color: rgba(238, 230, 216, 0.9);
+	box-shadow: 0px 0px 6px rgba(185, 13, 33, 1); 
+}
+
+
+.like, .no-like{
+	display: inline;
+	font-size: 1.2em;
+	list-style: none;
+}
+
+.like:hover, .no-like:hover{
+	cursor: pointer;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+}
+
+.like:active, .no-like:active{
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+.no-like{
+	margin: 0 2em 0 2em;
+}
+
+.list-Item{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+
+.list-Item-link{
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	color: #fff;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-size: auto;
+	margin-top: 1px;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+	padding: 1.8em 0em;
+	width: 100%;
+}
+
+.list-Item-link:hover{
+	background-color: rgba(0, 102, 173, 0.3);
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.list li:last-child{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.lblsocial{
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-size: 0.4em;
+	margin-left: 0.7em;
+}
+
+.logo-contenedor{
+	margin: 2em auto 2em auto;
+	width: 100%;
+}
+
+.logo{
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 80%;
+}
+
+.nav-contenedor{
+	background-color: rgba(39, 40, 34, 1);
+	height: 1080px;
+	width: 23%;
+}
+
+.Parrafo{
+	font-size: 0.9em;
+	font-family: 'Droid Serif', serif;
+	margin-top: 0.7em;
+	text-align: justify;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.Publicaciones_Contenido{
+	font-family: 'Droid Serif', serif;
+	margin: 1em auto 0 auto;
+	padding: 1em 1em;
+	text-align: justify;
+	width: 90%;
+}
+
+.Publicaciones_Contenido p{
+	margin-bottom: 1em;
+}
+
+.Publicaciones_IMG{
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+	display: block;
+	margin: 0 auto;
+}
+
+.publicaciones-titulo{
+	margin: 40px 0 0 1.3em;
+	text-align: left;
+}
+
+.social-a{
+	color: #000;
+	display: inline;
+	font-size: 2em;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em;
+}
+
+.social-a:hover, .lblsocial:hover{
+	cursor: pointer;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.textarea{
+	height: 100px;
+	max-height: 100px;
+}
+
+.Text-Informacion-Portada{
+	margin: 6em 0 0 0;
+	padding: 0.4em;
+	text-align: center;
+}
+
+.Ventana-Modal{
+	background-color: white;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+	display: block;
+	margin: 4em auto 0 auto;
+	padding: 5px;
+	width: 70%;
+}
